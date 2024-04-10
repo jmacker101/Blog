@@ -41,6 +41,7 @@ label:active::after{
 /* ending of toggle button code line */
 /* still need to make the screen turn dark and light still */
 /* line 44 to 54 are code that helps the screen turn bright and dark except the body  might need a little more tweeking PLEASE ADVISE! and REVISE */
+/* need to transfer code from .background all the way to line 55 to java script. */
 .background {
     width: 100vw;
     height: 100vh;
