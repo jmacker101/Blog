@@ -14,3 +14,8 @@
 // if checking if current mode is dark or light
 // swap mode
 // function to apply the css changes based off current mode
+
+
+// in this form i need to make a usermname title and contact each separate lines with there own bubble per say to write in
+//  i can not forget to have a SUBMIT BUTTON 
+

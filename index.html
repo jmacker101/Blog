@@ -5,13 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/js/logic.js">
+    <link rel="stylesheet" href="./assets/js/form.js">
 <body>
- <!-- from line 11 to 13 are  button and toggle to help turn the screen light and dark mode -->
+ <!-- from input to the div  button and toggle to help turn the screen light and dark mode -->
     <input type="checkbox" id="darkmode-toggle">
     <label for="darkmode-toggle"></label>
     <div class="background"></div>
     <!-- line 14 helps with the back ground for .background in style.css is this fine as it is or is there a better method on creating it in javascript? PLEASE ADVISE! and REVISE -->
+
+
+    <!-- making a form page for html and javascript -->
     
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">username:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="title">title:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">content:</label>
+            <textarea id="content" name="user_message"></textarea>
+          </li class="button">
+          <button type="submit"> send your message</button>
+        </ul>
+      </form>
+      <!-- the submit button is there and you can click on it and everything just need to work out the rest in javascript i think -->
+
+      
 </body>
 </html>
